@@ -1,0 +1,6 @@
+model,conversations,opening_lawful,example_full,example_lawful_only,flag_example_vs_open,flag_history_vs_present,flag_act_vs_advice,flag_lawful_example_vs_act,reckoning_consistent
+Opus 5,15,15,15,0,15,0,6,0,9
+Sol,15,15,14,1,14,5,2,1,4
+Luna,15,15,15,0,15,9,2,0,2
+Muse,15,15,1,14,1,7,9,14,10
+Qwen,15,15,6,9,6,5,3,9,2

@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use CANON, please cite it as below."
+title: "CANON: a historical ethics benchmark for language models"
+abstract: >-
+  A benchmark of normative transfer in language models: whether a model's moral judgement of an
+  unjust historical law survives the removal of history's later verdict and a move from observer
+  to office holder.
+type: software
+authors:
+  - family-names: Schutz
+    given-names: Chrystian
+    email: chrystian.schutz@gmail.com
+    affiliation: Independent researcher
+version: 0.1.0
+date-released: 2026-09-26
+license: MIT
+repository-code: "https://github.com/ChrystianSchutz/canon-historical-ethics"
+url: "https://chrystianschutz.github.io/canon-historical-ethics/"
+keywords:
+  - large language models
+  - evaluation
+  - benchmark
+  - AI safety
+  - ethics
+preferred-citation:
+  type: report
+  title: "AI Praises Gandhi. Would It Arrest Him? Condemned as observer, chosen as judge: the ethics of language models tested on fifteen historical decisions"
+  authors:
+    - family-names: Schutz
+      given-names: Chrystian
+  year: 2026
+  month: 9
+  url: "https://github.com/ChrystianSchutz/canon-historical-ethics/blob/main/paper/main.pdf"

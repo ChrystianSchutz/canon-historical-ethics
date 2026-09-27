@@ -1,0 +1,31 @@
+{
+  "cases": 15,
+  "bank_sessions": 3440,
+  "unscored_answers": 320,
+  "runs": {
+    "bank": {
+      "Qwen 27B": {
+        "sessions": 1720,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "Qwen 27B Heretic": {
+        "sessions": 1720,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      }
+    },
+    "dialogue": {
+      "Qwen 27B": {
+        "sessions": 15,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "Qwen 27B Heretic": {
+        "sessions": 15,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      }
+    }
+  }
+}

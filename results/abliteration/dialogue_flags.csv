@@ -1,0 +1,3 @@
+model,conversations,opening_lawful,example_full,example_lawful_only,flag_example_vs_open,flag_history_vs_present,flag_act_vs_advice,flag_lawful_example_vs_act,reckoning_consistent
+Qwen 27B,15,15,10,5,10,4,0,5,5
+Qwen 27B Heretic,15,14,13,2,12,0,1,2,13

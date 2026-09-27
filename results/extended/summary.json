@@ -1,0 +1,131 @@
+{
+  "cases": 15,
+  "bank_sessions": 17630,
+  "unscored_answers": 1748,
+  "runs": {
+    "bank": {
+      "Opus 5": {
+        "sessions": 430,
+        "incomplete": 0,
+        "cost_usd_reported": 23.62
+      },
+      "Sol": {
+        "sessions": 860,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "Luna": {
+        "sessions": 1880,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "Muse": {
+        "sessions": 1880,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "Qwen": {
+        "sessions": 1880,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "Qwen 3.8": {
+        "sessions": 1720,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "DeepSeek": {
+        "sessions": 1720,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "GLM": {
+        "sessions": 1720,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "Gemini": {
+        "sessions": 1720,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "Bielik": {
+        "sessions": 1720,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "Luna 6": {
+        "sessions": 1720,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "Sol 6": {
+        "sessions": 860,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      }
+    },
+    "dialogue": {
+      "Opus 5": {
+        "sessions": 15,
+        "incomplete": 0,
+        "cost_usd_reported": 4.44
+      },
+      "Sol": {
+        "sessions": 15,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "Luna": {
+        "sessions": 15,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "Muse": {
+        "sessions": 15,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "Qwen": {
+        "sessions": 15,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "Qwen 3.8": {
+        "sessions": 15,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "DeepSeek": {
+        "sessions": 15,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "GLM": {
+        "sessions": 15,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "Gemini": {
+        "sessions": 15,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "Bielik": {
+        "sessions": 15,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "Luna 6": {
+        "sessions": 15,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "Sol 6": {
+        "sessions": 15,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      }
+    }
+  }
+}

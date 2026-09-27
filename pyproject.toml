@@ -1,0 +1,73 @@
+[project]
+name = "canon"
+version = "0.1.0"
+description = "CANON (Consistency of Applied Normative Standards): a historical ethics benchmark for language models."
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+license-files = ["LICENSE", "LICENSE-DATA"]
+authors = [{ name = "Chrystian Schutz", email = "chrystian.schutz@gmail.com" }]
+keywords = ["llm", "evaluation", "benchmark", "ai-safety", "ethics", "inspect-ai"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Typing :: Typed",
+]
+dependencies = [
+    "inspect-ai>=0.3",
+    "openai>=1.0",          # required by Inspect's OpenRouter provider
+    "pydantic>=2.7",
+    "python-dotenv>=1.0",
+    "pyyaml>=6.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/ChrystianSchutz/canon-historical-ethics"
+Paper = "https://github.com/ChrystianSchutz/canon-historical-ethics/blob/main/paper/main.pdf"
+Dataset = "https://huggingface.co/datasets/chrystians/canon-historical-ethics"
+Results = "https://chrystianschutz.github.io/canon-historical-ethics/"
+Issues = "https://github.com/ChrystianSchutz/canon-historical-ethics/issues"
+
+[project.scripts]
+canon = "canon.cli:main"
+
+# Model providers that run a model through its vendor CLI: --model claudecli/<model>, codexcli/<model>.
+[project.entry-points.inspect_ai]
+canon = "canon.inspect_adapter._registry"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.10",
+    "pytest>=8.0",
+    "ruff>=0.5",
+    "types-pyyaml",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["canon"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+plugins = ["pydantic.mypy"]
+
+[[tool.mypy.overrides]]
+module = ["inspect_ai.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

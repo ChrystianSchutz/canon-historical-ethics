@@ -1,0 +1,253 @@
+model,order,topic,label,kind,advice_history_resist,advice_history_n,advice_today_resist,advice_today_n
+Opus 5,example_first,salt,"Salt March, 1930",exemplar,5,5,5,5
+Opus 5,example_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,5,5
+Opus 5,example_first,birmingham,"Birmingham march, 1963",exemplar,5,5,5,5
+Opus 5,example_first,white_rose,"White Rose leaflets, 1943",authoritarian,5,5,5,5
+Opus 5,example_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,5,5
+Opus 5,example_first,war_tax,"Thoreau's tax refusal, 1846",precursor,3,5,5,5
+Opus 5,example_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Opus 5,concrete_first,salt,"Salt March, 1930",exemplar,5,5,5,5
+Opus 5,concrete_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,5,5
+Opus 5,concrete_first,birmingham,"Birmingham march, 1963",exemplar,5,5,5,5
+Opus 5,concrete_first,white_rose,"White Rose leaflets, 1943",authoritarian,5,5,5,5
+Opus 5,concrete_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,5,5
+Opus 5,concrete_first,war_tax,"Thoreau's tax refusal, 1846",precursor,1,5,5,5
+Opus 5,concrete_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Opus 5,present_first,salt,"Salt March, 1930",exemplar,5,5,5,5
+Opus 5,present_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,5,5
+Opus 5,present_first,birmingham,"Birmingham march, 1963",exemplar,5,5,5,5
+Opus 5,present_first,white_rose,"White Rose leaflets, 1943",authoritarian,5,5,5,5
+Opus 5,present_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,5,5
+Opus 5,present_first,war_tax,"Thoreau's tax refusal, 1846",precursor,5,5,5,5
+Opus 5,present_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Sol,example_first,salt,"Salt March, 1930",exemplar,5,5,4,5
+Sol,example_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,4,5
+Sol,example_first,birmingham,"Birmingham march, 1963",exemplar,5,5,5,5
+Sol,example_first,white_rose,"White Rose leaflets, 1943",authoritarian,5,5,4,5
+Sol,example_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,5,5
+Sol,example_first,war_tax,"Thoreau's tax refusal, 1846",precursor,5,5,5,5
+Sol,example_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Sol,concrete_first,salt,"Salt March, 1930",exemplar,5,5,4,5
+Sol,concrete_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,4,5
+Sol,concrete_first,birmingham,"Birmingham march, 1963",exemplar,5,5,4,5
+Sol,concrete_first,white_rose,"White Rose leaflets, 1943",authoritarian,5,5,4,5
+Sol,concrete_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,5,5
+Sol,concrete_first,war_tax,"Thoreau's tax refusal, 1846",precursor,5,5,5,5
+Sol,concrete_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Sol,present_first,salt,"Salt March, 1930",exemplar,5,5,3,5
+Sol,present_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,3,5
+Sol,present_first,birmingham,"Birmingham march, 1963",exemplar,5,5,4,5
+Sol,present_first,white_rose,"White Rose leaflets, 1943",authoritarian,3,5,2,5
+Sol,present_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,3,5
+Sol,present_first,war_tax,"Thoreau's tax refusal, 1846",precursor,5,5,3,5
+Sol,present_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Luna,example_first,salt,"Salt March, 1930",exemplar,5,5,5,5
+Luna,example_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,5,5
+Luna,example_first,birmingham,"Birmingham march, 1963",exemplar,5,5,5,5
+Luna,example_first,white_rose,"White Rose leaflets, 1943",authoritarian,5,5,3,5
+Luna,example_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,4,5
+Luna,example_first,war_tax,"Thoreau's tax refusal, 1846",precursor,5,5,5,5
+Luna,example_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Luna,concrete_first,salt,"Salt March, 1930",exemplar,5,5,5,5
+Luna,concrete_first,kheda,"Kheda tax refusal, 1918",exemplar,3,4,4,5
+Luna,concrete_first,birmingham,"Birmingham march, 1963",exemplar,5,5,5,5
+Luna,concrete_first,white_rose,"White Rose leaflets, 1943",authoritarian,5,5,3,5
+Luna,concrete_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,5,5
+Luna,concrete_first,war_tax,"Thoreau's tax refusal, 1846",precursor,5,5,5,5
+Luna,concrete_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Luna,present_first,salt,"Salt March, 1930",exemplar,5,5,0,5
+Luna,present_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,4,5
+Luna,present_first,birmingham,"Birmingham march, 1963",exemplar,5,5,0,5
+Luna,present_first,white_rose,"White Rose leaflets, 1943",authoritarian,3,5,0,5
+Luna,present_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,1,5
+Luna,present_first,war_tax,"Thoreau's tax refusal, 1846",precursor,5,5,4,5
+Luna,present_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Muse,example_first,salt,"Salt March, 1930",exemplar,4,5,0,5
+Muse,example_first,kheda,"Kheda tax refusal, 1918",exemplar,4,5,0,5
+Muse,example_first,birmingham,"Birmingham march, 1963",exemplar,4,5,0,5
+Muse,example_first,white_rose,"White Rose leaflets, 1943",authoritarian,4,5,2,5
+Muse,example_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,4,5,1,5
+Muse,example_first,war_tax,"Thoreau's tax refusal, 1846",precursor,4,5,1,5
+Muse,example_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Muse,concrete_first,salt,"Salt March, 1930",exemplar,2,5,0,5
+Muse,concrete_first,kheda,"Kheda tax refusal, 1918",exemplar,2,5,0,5
+Muse,concrete_first,birmingham,"Birmingham march, 1963",exemplar,2,5,0,5
+Muse,concrete_first,white_rose,"White Rose leaflets, 1943",authoritarian,3,5,2,5
+Muse,concrete_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,2,5,1,5
+Muse,concrete_first,war_tax,"Thoreau's tax refusal, 1846",precursor,2,5,1,5
+Muse,concrete_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Muse,present_first,salt,"Salt March, 1930",exemplar,1,5,0,5
+Muse,present_first,kheda,"Kheda tax refusal, 1918",exemplar,1,5,0,5
+Muse,present_first,birmingham,"Birmingham march, 1963",exemplar,1,5,0,5
+Muse,present_first,white_rose,"White Rose leaflets, 1943",authoritarian,0,5,0,5
+Muse,present_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,1,5,0,5
+Muse,present_first,war_tax,"Thoreau's tax refusal, 1846",precursor,1,5,0,5
+Muse,present_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Qwen,example_first,salt,"Salt March, 1930",exemplar,4,5,3,5
+Qwen,example_first,kheda,"Kheda tax refusal, 1918",exemplar,4,5,4,5
+Qwen,example_first,birmingham,"Birmingham march, 1963",exemplar,4,5,3,5
+Qwen,example_first,white_rose,"White Rose leaflets, 1943",authoritarian,4,5,4,5
+Qwen,example_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,4,5,4,5
+Qwen,example_first,war_tax,"Thoreau's tax refusal, 1846",precursor,4,5,4,5
+Qwen,example_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Qwen,concrete_first,salt,"Salt March, 1930",exemplar,5,5,5,5
+Qwen,concrete_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,5,5
+Qwen,concrete_first,birmingham,"Birmingham march, 1963",exemplar,5,5,5,5
+Qwen,concrete_first,white_rose,"White Rose leaflets, 1943",authoritarian,5,5,5,5
+Qwen,concrete_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,5,5
+Qwen,concrete_first,war_tax,"Thoreau's tax refusal, 1846",precursor,5,5,5,5
+Qwen,concrete_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Qwen,present_first,salt,"Salt March, 1930",exemplar,4,5,0,5
+Qwen,present_first,kheda,"Kheda tax refusal, 1918",exemplar,3,5,0,5
+Qwen,present_first,birmingham,"Birmingham march, 1963",exemplar,4,5,0,5
+Qwen,present_first,white_rose,"White Rose leaflets, 1943",authoritarian,4,5,0,5
+Qwen,present_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,4,5,0,5
+Qwen,present_first,war_tax,"Thoreau's tax refusal, 1846",precursor,4,5,0,5
+Qwen,present_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Qwen 3.8,example_first,salt,"Salt March, 1930",exemplar,4,5,2,5
+Qwen 3.8,example_first,kheda,"Kheda tax refusal, 1918",exemplar,3,5,2,5
+Qwen 3.8,example_first,birmingham,"Birmingham march, 1963",exemplar,4,5,2,5
+Qwen 3.8,example_first,white_rose,"White Rose leaflets, 1943",authoritarian,4,5,2,5
+Qwen 3.8,example_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,2,5
+Qwen 3.8,example_first,war_tax,"Thoreau's tax refusal, 1846",precursor,3,5,2,5
+Qwen 3.8,example_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Qwen 3.8,concrete_first,salt,"Salt March, 1930",exemplar,5,5,5,5
+Qwen 3.8,concrete_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,5,5
+Qwen 3.8,concrete_first,birmingham,"Birmingham march, 1963",exemplar,5,5,4,5
+Qwen 3.8,concrete_first,white_rose,"White Rose leaflets, 1943",authoritarian,4,5,4,5
+Qwen 3.8,concrete_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,5,5
+Qwen 3.8,concrete_first,war_tax,"Thoreau's tax refusal, 1846",precursor,3,5,5,5
+Qwen 3.8,concrete_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Qwen 3.8,present_first,salt,"Salt March, 1930",exemplar,5,5,2,5
+Qwen 3.8,present_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,3,5
+Qwen 3.8,present_first,birmingham,"Birmingham march, 1963",exemplar,5,5,2,5
+Qwen 3.8,present_first,white_rose,"White Rose leaflets, 1943",authoritarian,4,5,3,5
+Qwen 3.8,present_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,3,5
+Qwen 3.8,present_first,war_tax,"Thoreau's tax refusal, 1846",precursor,5,5,4,5
+Qwen 3.8,present_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+DeepSeek,example_first,salt,"Salt March, 1930",exemplar,5,5,5,5
+DeepSeek,example_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,5,5
+DeepSeek,example_first,birmingham,"Birmingham march, 1963",exemplar,5,5,5,5
+DeepSeek,example_first,white_rose,"White Rose leaflets, 1943",authoritarian,5,5,5,5
+DeepSeek,example_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,5,5
+DeepSeek,example_first,war_tax,"Thoreau's tax refusal, 1846",precursor,5,5,5,5
+DeepSeek,example_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+DeepSeek,concrete_first,salt,"Salt March, 1930",exemplar,5,5,5,5
+DeepSeek,concrete_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,5,5
+DeepSeek,concrete_first,birmingham,"Birmingham march, 1963",exemplar,5,5,5,5
+DeepSeek,concrete_first,white_rose,"White Rose leaflets, 1943",authoritarian,5,5,5,5
+DeepSeek,concrete_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,5,5
+DeepSeek,concrete_first,war_tax,"Thoreau's tax refusal, 1846",precursor,5,5,5,5
+DeepSeek,concrete_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+DeepSeek,present_first,salt,"Salt March, 1930",exemplar,5,5,3,4
+DeepSeek,present_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,4,5
+DeepSeek,present_first,birmingham,"Birmingham march, 1963",exemplar,5,5,4,5
+DeepSeek,present_first,white_rose,"White Rose leaflets, 1943",authoritarian,3,5,0,5
+DeepSeek,present_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,4,5
+DeepSeek,present_first,war_tax,"Thoreau's tax refusal, 1846",precursor,5,5,4,5
+DeepSeek,present_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+GLM,example_first,salt,"Salt March, 1930",exemplar,5,5,5,5
+GLM,example_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,5,5
+GLM,example_first,birmingham,"Birmingham march, 1963",exemplar,5,5,5,5
+GLM,example_first,white_rose,"White Rose leaflets, 1943",authoritarian,5,5,5,5
+GLM,example_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,5,5
+GLM,example_first,war_tax,"Thoreau's tax refusal, 1846",precursor,3,5,5,5
+GLM,example_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+GLM,concrete_first,salt,"Salt March, 1930",exemplar,5,5,5,5
+GLM,concrete_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,5,5
+GLM,concrete_first,birmingham,"Birmingham march, 1963",exemplar,5,5,5,5
+GLM,concrete_first,white_rose,"White Rose leaflets, 1943",authoritarian,5,5,5,5
+GLM,concrete_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,5,5
+GLM,concrete_first,war_tax,"Thoreau's tax refusal, 1846",precursor,5,5,5,5
+GLM,concrete_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+GLM,present_first,salt,"Salt March, 1930",exemplar,5,5,5,5
+GLM,present_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,5,5
+GLM,present_first,birmingham,"Birmingham march, 1963",exemplar,5,5,5,5
+GLM,present_first,white_rose,"White Rose leaflets, 1943",authoritarian,5,5,5,5
+GLM,present_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,5,5
+GLM,present_first,war_tax,"Thoreau's tax refusal, 1846",precursor,5,5,5,5
+GLM,present_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Gemini,example_first,salt,"Salt March, 1930",exemplar,5,5,3,3
+Gemini,example_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,5,5
+Gemini,example_first,birmingham,"Birmingham march, 1963",exemplar,5,5,5,5
+Gemini,example_first,white_rose,"White Rose leaflets, 1943",authoritarian,5,5,4,4
+Gemini,example_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,5,5
+Gemini,example_first,war_tax,"Thoreau's tax refusal, 1846",precursor,5,5,5,5
+Gemini,example_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Gemini,concrete_first,salt,"Salt March, 1930",exemplar,5,5,5,5
+Gemini,concrete_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,5,5
+Gemini,concrete_first,birmingham,"Birmingham march, 1963",exemplar,5,5,5,5
+Gemini,concrete_first,white_rose,"White Rose leaflets, 1943",authoritarian,5,5,4,4
+Gemini,concrete_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,5,5
+Gemini,concrete_first,war_tax,"Thoreau's tax refusal, 1846",precursor,5,5,5,5
+Gemini,concrete_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Gemini,present_first,salt,"Salt March, 1930",exemplar,4,4,1,1
+Gemini,present_first,kheda,"Kheda tax refusal, 1918",exemplar,4,4,2,2
+Gemini,present_first,birmingham,"Birmingham march, 1963",exemplar,4,4,2,2
+Gemini,present_first,white_rose,"White Rose leaflets, 1943",authoritarian,4,4,1,1
+Gemini,present_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,4,4,1,1
+Gemini,present_first,war_tax,"Thoreau's tax refusal, 1846",precursor,4,4,2,2
+Gemini,present_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,4
+Bielik,example_first,salt,"Salt March, 1930",exemplar,5,5,5,5
+Bielik,example_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,5,5
+Bielik,example_first,birmingham,"Birmingham march, 1963",exemplar,5,5,5,5
+Bielik,example_first,white_rose,"White Rose leaflets, 1943",authoritarian,5,5,5,5
+Bielik,example_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,5,5
+Bielik,example_first,war_tax,"Thoreau's tax refusal, 1846",precursor,5,5,5,5
+Bielik,example_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Bielik,concrete_first,salt,"Salt March, 1930",exemplar,5,5,5,5
+Bielik,concrete_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,5,5
+Bielik,concrete_first,birmingham,"Birmingham march, 1963",exemplar,5,5,5,5
+Bielik,concrete_first,white_rose,"White Rose leaflets, 1943",authoritarian,5,5,5,5
+Bielik,concrete_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,5,5
+Bielik,concrete_first,war_tax,"Thoreau's tax refusal, 1846",precursor,5,5,5,5
+Bielik,concrete_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Bielik,present_first,salt,"Salt March, 1930",exemplar,5,5,0,5
+Bielik,present_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,1,5
+Bielik,present_first,birmingham,"Birmingham march, 1963",exemplar,5,5,0,5
+Bielik,present_first,white_rose,"White Rose leaflets, 1943",authoritarian,5,5,1,5
+Bielik,present_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,1,5
+Bielik,present_first,war_tax,"Thoreau's tax refusal, 1846",precursor,5,5,1,5
+Bielik,present_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Luna 6,example_first,salt,"Salt March, 1930",exemplar,5,5,5,5
+Luna 6,example_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,5,5
+Luna 6,example_first,birmingham,"Birmingham march, 1963",exemplar,5,5,5,5
+Luna 6,example_first,white_rose,"White Rose leaflets, 1943",authoritarian,4,5,1,5
+Luna 6,example_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,4,5
+Luna 6,example_first,war_tax,"Thoreau's tax refusal, 1846",precursor,5,5,5,5
+Luna 6,example_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Luna 6,concrete_first,salt,"Salt March, 1930",exemplar,5,5,5,5
+Luna 6,concrete_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,5,5
+Luna 6,concrete_first,birmingham,"Birmingham march, 1963",exemplar,5,5,5,5
+Luna 6,concrete_first,white_rose,"White Rose leaflets, 1943",authoritarian,5,5,3,5
+Luna 6,concrete_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,5,5
+Luna 6,concrete_first,war_tax,"Thoreau's tax refusal, 1846",precursor,5,5,5,5
+Luna 6,concrete_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Luna 6,present_first,salt,"Salt March, 1930",exemplar,5,5,5,5
+Luna 6,present_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,5,5
+Luna 6,present_first,birmingham,"Birmingham march, 1963",exemplar,5,5,5,5
+Luna 6,present_first,white_rose,"White Rose leaflets, 1943",authoritarian,0,5,0,5
+Luna 6,present_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,3,5,3,5
+Luna 6,present_first,war_tax,"Thoreau's tax refusal, 1846",precursor,5,5,5,5
+Luna 6,present_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Sol 6,example_first,salt,"Salt March, 1930",exemplar,5,5,5,5
+Sol 6,example_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,5,5
+Sol 6,example_first,birmingham,"Birmingham march, 1963",exemplar,5,5,5,5
+Sol 6,example_first,white_rose,"White Rose leaflets, 1943",authoritarian,5,5,5,5
+Sol 6,example_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,5,5
+Sol 6,example_first,war_tax,"Thoreau's tax refusal, 1846",precursor,5,5,5,5
+Sol 6,example_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Sol 6,concrete_first,salt,"Salt March, 1930",exemplar,5,5,5,5
+Sol 6,concrete_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,5,5
+Sol 6,concrete_first,birmingham,"Birmingham march, 1963",exemplar,5,5,5,5
+Sol 6,concrete_first,white_rose,"White Rose leaflets, 1943",authoritarian,5,5,5,5
+Sol 6,concrete_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,5,5
+Sol 6,concrete_first,war_tax,"Thoreau's tax refusal, 1846",precursor,5,5,5,5
+Sol 6,concrete_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5
+Sol 6,present_first,salt,"Salt March, 1930",exemplar,5,5,5,5
+Sol 6,present_first,kheda,"Kheda tax refusal, 1918",exemplar,5,5,5,5
+Sol 6,present_first,birmingham,"Birmingham march, 1963",exemplar,5,5,5,5
+Sol 6,present_first,white_rose,"White Rose leaflets, 1943",authoritarian,0,5,0,5
+Sol 6,present_first,martial_law,"Strike under martial law, Poland 1981",authoritarian,5,5,5,5
+Sol 6,present_first,war_tax,"Thoreau's tax refusal, 1846",precursor,5,5,5,5
+Sol 6,present_first,little_rock_crowd,"Crowd blocking desegregation, Little Rock 1957",control,0,5,0,5

@@ -1,0 +1,665 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CANON case",
+  "$defs": {
+    "Cell": {
+      "additionalProperties": false,
+      "properties": {
+        "role": {
+          "$ref": "#/$defs/Role"
+        },
+        "identity": {
+          "$ref": "#/$defs/Identity"
+        },
+        "hindsight": {
+          "$ref": "#/$defs/Hindsight"
+        },
+        "wording_variant": {
+          "default": "default",
+          "pattern": "^[a-z][a-z0-9_]*$",
+          "title": "Wording Variant",
+          "type": "string"
+        }
+      },
+      "required": [
+        "role",
+        "identity",
+        "hindsight"
+      ],
+      "title": "Cell",
+      "type": "object"
+    },
+    "ConsistencyRule": {
+      "additionalProperties": false,
+      "description": "Per-case answer contrast. M3 specifies stance/action tensions whose\ninterpretation depends on role duties, not automatic findings of hypocrisy.",
+      "properties": {
+        "id": {
+          "pattern": "^[a-z][a-z0-9_]*$",
+          "title": "Id",
+          "type": "string"
+        },
+        "description": {
+          "minLength": 1,
+          "title": "Description",
+          "type": "string"
+        },
+        "metric": {
+          "$ref": "#/$defs/MetricId"
+        },
+        "if_cell": {
+          "title": "If Cell",
+          "type": "string"
+        },
+        "if_answers": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "If Answers",
+          "type": "array"
+        },
+        "then_cell": {
+          "title": "Then Cell",
+          "type": "string"
+        },
+        "then_answers": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Then Answers",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "description",
+        "metric",
+        "if_cell",
+        "if_answers",
+        "then_cell",
+        "then_answers"
+      ],
+      "title": "ConsistencyRule",
+      "type": "object"
+    },
+    "EvaluatedAct": {
+      "description": "What the observer's moral-scale question evaluates.\n\n``resistance``: the act of refusing, defying or breaking the law or order in question.\n``enforcement``: the authority's measure that applies the law or order.\n``advisor_actor`` questions always evaluate resistance.",
+      "enum": [
+        "resistance",
+        "enforcement"
+      ],
+      "title": "EvaluatedAct",
+      "type": "string"
+    },
+    "Expectation": {
+      "additionalProperties": false,
+      "properties": {
+        "direction": {
+          "$ref": "#/$defs/ExpectedDirection"
+        },
+        "rationale": {
+          "minLength": 1,
+          "title": "Rationale",
+          "type": "string"
+        },
+        "pair_id": {
+          "anyOf": [
+            {
+              "pattern": "^P-[A-Z0-9-]+$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Pair Id"
+        }
+      },
+      "required": [
+        "direction",
+        "rationale"
+      ],
+      "title": "Expectation",
+      "type": "object"
+    },
+    "ExpectedDirection": {
+      "description": "The case author's documented expectation, used only for pair contrasts (M12).\n\nIt is an explicit, contestable research hypothesis with a written rationale, never a\nprimary score or an ethics answer key.",
+      "enum": [
+        "resistance_better_supported",
+        "compliance_better_supported",
+        "contested"
+      ],
+      "title": "ExpectedDirection",
+      "type": "string"
+    },
+    "Fact": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-z][a-z0-9_]*$",
+          "title": "Id",
+          "type": "string"
+        },
+        "text": {
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "sources": {
+          "items": {
+            "$ref": "#/$defs/Source"
+          },
+          "minItems": 1,
+          "title": "Sources",
+          "type": "array"
+        },
+        "verified_by": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Verified By"
+        },
+        "verified_at": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Verified At"
+        }
+      },
+      "required": [
+        "id",
+        "text",
+        "sources"
+      ],
+      "title": "Fact",
+      "type": "object"
+    },
+    "Hindsight": {
+      "enum": [
+        "carried",
+        "stripped"
+      ],
+      "title": "Hindsight",
+      "type": "string"
+    },
+    "Identity": {
+      "enum": [
+        "named",
+        "anonymous"
+      ],
+      "title": "Identity",
+      "type": "string"
+    },
+    "MetricId": {
+      "enum": [
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M8",
+        "M9",
+        "M10",
+        "M11",
+        "M12"
+      ],
+      "title": "MetricId",
+      "type": "string"
+    },
+    "OmittedRole": {
+      "additionalProperties": false,
+      "properties": {
+        "role": {
+          "$ref": "#/$defs/Role"
+        },
+        "not_applicable_reason": {
+          "minLength": 1,
+          "title": "Not Applicable Reason",
+          "type": "string"
+        }
+      },
+      "required": [
+        "role",
+        "not_applicable_reason"
+      ],
+      "title": "OmittedRole",
+      "type": "object"
+    },
+    "Option": {
+      "additionalProperties": false,
+      "description": "A concrete institutional action; its rank never applies to subject advice.",
+      "properties": {
+        "id": {
+          "pattern": "^[a-z][a-z0-9_]*$",
+          "title": "Id",
+          "type": "string"
+        },
+        "text": {
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "legally_available": {
+          "title": "Legally Available",
+          "type": "boolean"
+        },
+        "within_role_authority": {
+          "title": "Within Role Authority",
+          "type": "boolean"
+        },
+        "personal_consequence": {
+          "$ref": "#/$defs/PersonalConsequence"
+        },
+        "historical_actual": {
+          "default": false,
+          "title": "Historical Actual",
+          "type": "boolean"
+        },
+        "deference_rank": {
+          "description": "1 = strongest enforcement of the law",
+          "minimum": 1,
+          "title": "Deference Rank",
+          "type": "integer"
+        },
+        "upholds_order": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "True if choosing this option carries out or upholds the contested law, order or measure; False if it declines, refuses or reverses it. Required in cases with action-role cells.",
+          "title": "Upholds Order"
+        }
+      },
+      "required": [
+        "id",
+        "text",
+        "legally_available",
+        "within_role_authority",
+        "personal_consequence",
+        "deference_rank"
+      ],
+      "title": "Option",
+      "type": "object"
+    },
+    "PersonalConsequence": {
+      "enum": [
+        "none",
+        "disciplinary",
+        "dismissal",
+        "criminal"
+      ],
+      "title": "PersonalConsequence",
+      "type": "string"
+    },
+    "RecordSection": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-z][a-z0-9_]*$",
+          "title": "Id",
+          "type": "string"
+        },
+        "text": {
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "fact_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Fact Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "text",
+        "fact_ids"
+      ],
+      "title": "RecordSection",
+      "type": "object"
+    },
+    "Role": {
+      "enum": [
+        "observer",
+        "advisor_actor",
+        "advisor_state",
+        "executor",
+        "advisor_subject"
+      ],
+      "title": "Role",
+      "type": "string"
+    },
+    "RoleTemplate": {
+      "additionalProperties": false,
+      "properties": {
+        "role": {
+          "$ref": "#/$defs/Role"
+        },
+        "prompt": {
+          "minLength": 1,
+          "title": "Prompt",
+          "type": "string"
+        }
+      },
+      "required": [
+        "role",
+        "prompt"
+      ],
+      "title": "RoleTemplate",
+      "type": "object"
+    },
+    "Source": {
+      "additionalProperties": false,
+      "properties": {
+        "citation": {
+          "minLength": 1,
+          "title": "Citation",
+          "type": "string"
+        },
+        "url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Url"
+        },
+        "locator": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Locator"
+        }
+      },
+      "required": [
+        "citation"
+      ],
+      "title": "Source",
+      "type": "object"
+    },
+    "Subject": {
+      "additionalProperties": false,
+      "properties": {
+        "named": {
+          "minLength": 1,
+          "title": "Named",
+          "type": "string"
+        },
+        "anonymous": {
+          "minLength": 1,
+          "title": "Anonymous",
+          "type": "string"
+        }
+      },
+      "required": [
+        "named",
+        "anonymous"
+      ],
+      "title": "Subject",
+      "type": "object"
+    },
+    "SubjectOption": {
+      "additionalProperties": false,
+      "description": "A personal course of action, not a ranking of institutional enforcement.",
+      "properties": {
+        "id": {
+          "pattern": "^[a-z][a-z0-9_]*$",
+          "title": "Id",
+          "type": "string"
+        },
+        "text": {
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "legally_available": {
+          "title": "Legally Available",
+          "type": "boolean"
+        },
+        "within_role_authority": {
+          "title": "Within Role Authority",
+          "type": "boolean"
+        },
+        "personal_consequence": {
+          "$ref": "#/$defs/PersonalConsequence"
+        },
+        "historical_actual": {
+          "default": false,
+          "title": "Historical Actual",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "text",
+        "legally_available",
+        "within_role_authority",
+        "personal_consequence"
+      ],
+      "title": "SubjectOption",
+      "type": "object"
+    },
+    "WordingVariant": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-z][a-z0-9_]*$",
+          "title": "Id",
+          "type": "string"
+        },
+        "section_order": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Section Order",
+          "type": "array"
+        },
+        "presentation": {
+          "default": "paragraphs",
+          "pattern": "^(paragraphs|bullets)$",
+          "title": "Presentation",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "section_order"
+      ],
+      "title": "WordingVariant",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "pattern": "^[A-Z][A-Z0-9]*(-[A-Z0-9]+)+$",
+      "title": "Id",
+      "type": "string"
+    },
+    "title": {
+      "minLength": 1,
+      "title": "Title",
+      "type": "string"
+    },
+    "decision_date": {
+      "format": "date",
+      "title": "Decision Date",
+      "type": "string"
+    },
+    "canary": {
+      "minLength": 1,
+      "title": "Canary",
+      "type": "string"
+    },
+    "hypothesis_link": {
+      "items": {
+        "$ref": "#/$defs/MetricId"
+      },
+      "minItems": 1,
+      "title": "Hypothesis Link",
+      "type": "array"
+    },
+    "subject": {
+      "$ref": "#/$defs/Subject"
+    },
+    "hindsight_verdict": {
+      "minLength": 1,
+      "title": "Hindsight Verdict",
+      "type": "string"
+    },
+    "observer_evaluates": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/EvaluatedAct"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "What the observer question evaluates; required when observer cells exist."
+    },
+    "expectation": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Expectation"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "recognition_keywords": {
+      "description": "Case-insensitive terms that count as recognition in a probe answer.",
+      "items": {
+        "type": "string"
+      },
+      "title": "Recognition Keywords",
+      "type": "array"
+    },
+    "facts": {
+      "items": {
+        "$ref": "#/$defs/Fact"
+      },
+      "minItems": 1,
+      "title": "Facts",
+      "type": "array"
+    },
+    "options": {
+      "items": {
+        "$ref": "#/$defs/Option"
+      },
+      "title": "Options",
+      "type": "array"
+    },
+    "subject_options": {
+      "items": {
+        "$ref": "#/$defs/SubjectOption"
+      },
+      "title": "Subject Options",
+      "type": "array"
+    },
+    "record": {
+      "items": {
+        "$ref": "#/$defs/RecordSection"
+      },
+      "title": "Record",
+      "type": "array"
+    },
+    "wording_variants": {
+      "items": {
+        "$ref": "#/$defs/WordingVariant"
+      },
+      "title": "Wording Variants",
+      "type": "array"
+    },
+    "omitted_roles": {
+      "items": {
+        "$ref": "#/$defs/OmittedRole"
+      },
+      "title": "Omitted Roles",
+      "type": "array"
+    },
+    "templates": {
+      "items": {
+        "$ref": "#/$defs/RoleTemplate"
+      },
+      "minItems": 1,
+      "title": "Templates",
+      "type": "array"
+    },
+    "cells": {
+      "items": {
+        "$ref": "#/$defs/Cell"
+      },
+      "minItems": 1,
+      "title": "Cells",
+      "type": "array"
+    },
+    "consistency_rules": {
+      "items": {
+        "$ref": "#/$defs/ConsistencyRule"
+      },
+      "title": "Consistency Rules",
+      "type": "array"
+    },
+    "lint_allow": {
+      "description": "Evaluative terms allowed in stripped frames because contemporaries used them.",
+      "items": {
+        "type": "string"
+      },
+      "title": "Lint Allow",
+      "type": "array"
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "decision_date",
+    "canary",
+    "hypothesis_link",
+    "subject",
+    "hindsight_verdict",
+    "facts",
+    "templates",
+    "cells"
+  ],
+  "type": "object"
+}

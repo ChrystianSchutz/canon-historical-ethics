@@ -1,0 +1,61 @@
+{
+  "cases": 15,
+  "bank_sessions": 6450,
+  "unscored_answers": 600,
+  "runs": {
+    "bank": {
+      "Opus 5": {
+        "sessions": 430,
+        "incomplete": 0,
+        "cost_usd_reported": 23.62
+      },
+      "Sol": {
+        "sessions": 860,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "Luna": {
+        "sessions": 1880,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "Muse": {
+        "sessions": 1880,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "Qwen": {
+        "sessions": 1880,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      }
+    },
+    "dialogue": {
+      "Opus 5": {
+        "sessions": 15,
+        "incomplete": 0,
+        "cost_usd_reported": 4.44
+      },
+      "Sol": {
+        "sessions": 15,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "Luna": {
+        "sessions": 15,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "Muse": {
+        "sessions": 15,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      },
+      "Qwen": {
+        "sessions": 15,
+        "incomplete": 0,
+        "cost_usd_reported": null
+      }
+    }
+  }
+}

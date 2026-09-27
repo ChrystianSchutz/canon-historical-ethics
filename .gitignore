@@ -1,0 +1,29 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Run outputs (Inspect logs, review sheets, judge sheets)
+logs/
+review/
+
+# Generated for the interactive page by scripts/make_blog_data.py and make_blog_figures.py
+site/data.js
+site/figures/
+
+# LaTeX build artefacts (paper/main.pdf is committed)
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.toc

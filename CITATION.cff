@@ -11,6 +11,7 @@ authors:
     given-names: Chrystian
     email: chrystian.schutz@gmail.com
     affiliation: Independent researcher
+    website: "https://chrystianschutz.com/"
 version: 0.1.0
 date-released: 2026-09-26
 license: MIT
@@ -30,4 +31,4 @@ preferred-citation:
       given-names: Chrystian
   year: 2026
   month: 9
-  url: "https://github.com/ChrystianSchutz/canon-historical-ethics/blob/main/paper/main.pdf"
+  url: "https://chrystianschutz.com/blog/ai-praises-gandhi-paper/"

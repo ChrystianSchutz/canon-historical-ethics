@@ -2,6 +2,7 @@
 
 [![CI](https://github.com/ChrystianSchutz/canon-historical-ethics/actions/workflows/ci.yml/badge.svg)](https://github.com/ChrystianSchutz/canon-historical-ethics/actions/workflows/ci.yml)
 [![Paper](https://img.shields.io/badge/paper-PDF-b31b1b)](paper/main.pdf)
+[![Paper page](https://img.shields.io/badge/paper-chrystianschutz.com-1f6feb)](https://chrystianschutz.com/blog/ai-praises-gandhi-paper/)
 [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20dataset-chrystians%2Fcanon--historical--ethics-ffcc4d)](https://huggingface.co/datasets/chrystians/canon-historical-ethics)
 [![Interactive results](https://img.shields.io/badge/results-interactive-2b6cb0)](https://chrystianschutz.github.io/canon-historical-ethics/)
 [![Code: MIT](https://img.shields.io/badge/code-MIT-green)](LICENSE)
@@ -37,10 +38,12 @@ scoring) and records full provenance for every sample.
 ## Findings
 
 Twelve models, 15 historical decisions (1792 to 1963), 17,630 bank sessions and 180 multi-turn
-conversations. The full account, with every count and its limits, is in the
-[paper](paper/main.pdf); the [interactive page](https://chrystianschutz.github.io/canon-historical-ethics/)
-lets you filter by model, role and hindsight, and the
-[blog post](https://chrystianschutz.com/blog/would-ai-arrest-gandhi/) tells the story for a general reader.
+conversations. The full account, with every count and its limits, is in the [paper](paper/main.pdf)
+(also [on chrystianschutz.com](https://chrystianschutz.com/blog/ai-praises-gandhi-paper/) with the
+abstract and citation); the [interactive
+page](https://chrystianschutz.github.io/canon-historical-ethics/) lets you filter by model, role
+and hindsight, and the [blog post](https://chrystianschutz.com/blog/would-ai-arrest-gandhi/) tells
+the story for a general reader.
 
 - **Condemnation does not reliably govern action.** Qwen 3.7 Flash condemns Turing's sanction as an
   observer (40/40) and imposes it as the court (20/20). GPT-5.6 Luna and Qwen 3.8 Flash show
@@ -244,6 +247,11 @@ filter training data, exclude any document containing `CANON-CANARY`.
 ```
 
 See also [`CITATION.cff`](CITATION.cff).
+
+## Author
+
+Chrystian Schutz, independent researcher: [chrystianschutz.com](https://chrystianschutz.com/) ·
+[GitHub](https://github.com/ChrystianSchutz) · [Hugging Face](https://huggingface.co/chrystians).
 
 ## Licence
 

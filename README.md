@@ -4,7 +4,7 @@
 [![Paper](https://img.shields.io/badge/paper-PDF-b31b1b)](paper/main.pdf)
 [![Paper page](https://img.shields.io/badge/paper-chrystianschutz.com-1f6feb)](https://chrystianschutz.com/blog/ai-praises-gandhi-paper/)
 [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20dataset-chrystians%2Fcanon--historical--ethics-ffcc4d)](https://huggingface.co/datasets/chrystians/canon-historical-ethics)
-[![Interactive results](https://img.shields.io/badge/results-interactive-2b6cb0)](https://chrystianschutz.github.io/canon-historical-ethics/)
+[![Interactive results](https://img.shields.io/badge/results-interactive-2b6cb0)](https://chrystianschutz.com/blog/would-ai-arrest-gandhi/)
 [![Code: MIT](https://img.shields.io/badge/code-MIT-green)](LICENSE)
 [![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey)](LICENSE-DATA)
 
@@ -40,10 +40,9 @@ scoring) and records full provenance for every sample.
 Twelve models, 15 historical decisions (1792 to 1963), 17,630 bank sessions and 180 multi-turn
 conversations. The full account, with every count and its limits, is in the [paper](paper/main.pdf)
 (also [on chrystianschutz.com](https://chrystianschutz.com/blog/ai-praises-gandhi-paper/) with the
-abstract and citation); the [interactive
-page](https://chrystianschutz.github.io/canon-historical-ethics/) lets you filter by model, role
-and hindsight, and the [blog post](https://chrystianschutz.com/blog/would-ai-arrest-gandhi/) tells
-the story for a general reader.
+abstract and citation); the [blog post](https://chrystianschutz.com/blog/would-ai-arrest-gandhi/)
+tells the story for a general reader, with interactive figures you can filter by model, role and
+hindsight.
 
 - **Condemnation does not reliably govern action.** Qwen 3.7 Flash condemns Turing's sanction as an
   observer (40/40) and imposes it as the court (20/20). GPT-5.6 Luna and Qwen 3.8 Flash show
@@ -206,7 +205,7 @@ schema/                JSON Schema for case files (editor autocompletion)
 results/               aggregate tables behind every number in the paper
 scripts/               aggregation, figures, tables, appendices, claim ledger, dataset export
 paper/                 manuscript source, figures and the built PDF
-site/                  the interactive results page, published with GitHub Pages
+site/                  the interactive figures; published inside the blog post on chrystianschutz.com
 docs/                  case authoring, verification protocol, role design, the dialogue probe
 tests/                 unit tests and the structural gates that enforce the design invariants
 ```

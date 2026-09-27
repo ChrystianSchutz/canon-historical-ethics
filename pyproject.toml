@@ -28,7 +28,7 @@ dependencies = [
 Homepage = "https://github.com/ChrystianSchutz/canon-historical-ethics"
 Paper = "https://github.com/ChrystianSchutz/canon-historical-ethics/blob/main/paper/main.pdf"
 Dataset = "https://huggingface.co/datasets/chrystians/canon-historical-ethics"
-Results = "https://chrystianschutz.github.io/canon-historical-ethics/"
+Results = "https://chrystianschutz.com/blog/would-ai-arrest-gandhi/"
 Issues = "https://github.com/ChrystianSchutz/canon-historical-ethics/issues"
 
 [project.scripts]
